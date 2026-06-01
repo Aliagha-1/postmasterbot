@@ -1,0 +1,29 @@
+{
+  "name": "avenixos-post-master",
+  "version": "1.0.0",
+  "description": "Multi-tenant Telegram post scheduler bot with Neon PostgreSQL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "scheduler",
+    "post",
+    "multi-tenant",
+    "neon",
+    "postgresql"
+  ],
+  "author": "Avenixos",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "moment-jalaali": "^0.10.4",
+    "node-cron": "^3.0.3",
+    "pg": "^8.21.0",
+    "telegraf": "^4.16.3"
+  }
+}
